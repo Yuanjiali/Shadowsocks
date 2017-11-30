@@ -47,3 +47,5 @@
 ##### Shadowsocks-libev 版：
 /etc/shadowsocks-libev/config.json
 
+
+转自秋水逸冰

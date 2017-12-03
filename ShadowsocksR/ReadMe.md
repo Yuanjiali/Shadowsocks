@@ -10,3 +10,25 @@ https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases
 /var/log/shadowsocks.log
 #### 代码安装目录
 /usr/local/shadowsocks
+### 多用户配置
+    {
+    "server":"0.0.0.0",
+    "server_ipv6": "[::]",
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "port_password":{
+        "8989":"password1",
+        "8990":"password2",
+        "8991":"password3"
+    },
+    "timeout":300,
+    "method":"aes-256-cfb",
+    "protocol": "origin",
+    "protocol_param": "",
+    "obfs": "plain",
+    "obfs_param": "",
+    "redirect": "",
+    "dns_ipv6": false,
+    "fast_open": false,
+    "workers": 1
+    }

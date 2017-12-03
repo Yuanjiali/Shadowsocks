@@ -10,6 +10,10 @@ https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases
 /var/log/shadowsocks.log
 #### 代码安装目录
 /usr/local/shadowsocks
+#### 启动：/etc/init.d/shadowsocks start
+#### 停止：/etc/init.d/shadowsocks stop
+#### 重启：/etc/init.d/shadowsocks restart
+#### 状态：/etc/init.d/shadowsocks status
 ### 多用户配置
     {
     "server":"0.0.0.0",

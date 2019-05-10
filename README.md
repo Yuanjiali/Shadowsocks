@@ -1,4 +1,8 @@
-# Shadowsocks-
+# Shadowsocks
+## 客户端
+[Windows客户端](https://github.com/shadowsocks/shadowsocks-windows/releases)
+
+## 服务端
 ### 1.Shadowsocks-Python， ShadowsocksR， Shadowsocks-Go， Shadowsocks-libev 版（四选一）服务端。
 ### 2.Shadowsocks-Python 和 ShadowsocksR 安装后不可同时启动。
 #### 安装方法（使用root用户登录）：

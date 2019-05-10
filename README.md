@@ -1,12 +1,12 @@
 # Shadowsocks
 ## 客户端
-[Windows客户端](https://github.com/shadowsocks/shadowsocks-windows/releases)
-
+[Shadowsocks Windows客户端](https://github.com/shadowsocks/shadowsocks-windows/releases)
+[ShadowsocksR Windows客户端](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases)
 ## 服务端
 ### 1.Shadowsocks-Python， ShadowsocksR， Shadowsocks-Go， Shadowsocks-libev 版（四选一）服务端。
 ### 2.Shadowsocks-Python 和 ShadowsocksR 安装后不可同时启动。
 #### 安装方法（使用root用户登录）：
-    wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/Yuanjiali/Shadowsocks-/master/shadowsocks-all.sh
+    wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/Yuanjiali/Shadowsocks/master/shadowsocks-all.sh
     chmod +x shadowsocks-all.sh
     ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 #### 卸载方法：
